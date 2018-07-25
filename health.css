@@ -6,10 +6,13 @@
 #paragraph_font {
   font-family: 'Philosopher', sans-serif;
   color:white;
-  font-size:15px;
+  font-size:18px;
 }
 #default_font {
   font-family: 'Philosopher', sans-serif;
   color:white;
   font-size:14px;
+}
+#border {
+  style="border:5px; border-style:solid; border-color:#ffffff; padding: 1em;"> 
 }
