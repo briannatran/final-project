@@ -1,1 +1,1 @@
-// var x = document.getElementById("myAudio").autoplay;
+var x = document.getElementById("myAudio").autoplay;
