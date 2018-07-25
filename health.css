@@ -3,6 +3,11 @@
   color:white;
   font-size:54px;
 }
+#paragraph_font {
+  font-family: 'Philosopher', sans-serif;
+  color:white;
+  font-size:15px;
+}
 #default_font {
   font-family: 'Philosopher', sans-serif;
   color:white;
