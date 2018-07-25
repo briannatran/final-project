@@ -6,7 +6,7 @@
 #paragraph_font {
   font-family: 'Philosopher', sans-serif;
   color:white;
-  font-size:18px;
+  font-size:17px;
 }
 #default_font {
   font-family: 'Philosopher', sans-serif;
@@ -14,5 +14,9 @@
   font-size:14px;
 }
 #border {
-  style="border:5px; border-style:solid; border-color:#ffffff; padding: 1em;"> 
+  border:6px;
+  border-style:solid;
+  border-color:#ffffff;
+  padding: 1em;
+
 }
