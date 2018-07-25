@@ -1,0 +1,113 @@
+h1{
+  text-align:center;
+  position:relative;
+  position: absolute;
+  left: 0;
+  top: -5%;
+  width: 100%;
+  font-size: 100px;
+  font-family:'Comfortaa';
+  color: white;
+}
+h2{
+  text-align:center;
+  /* position:relative;
+  position: absolute;
+  left: 0;
+  top: -5%; */
+  width: 100%;
+  font-size: 20px;
+  font-family:'Comfortaa';
+  color: white;
+}
+h3{
+  text-align:center;
+  /* position:relative;
+  position: absolute;
+  left: 0;
+  top: -5%; */
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:'Comfortaa';
+  color: white;
+}
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+} */
+body{
+  background-color: #f76a8f;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 13px;
+  font-family:'Comfortaa';
+  text-decoration: none;
+}
+
+.nutrition a {
+  /* display: flex; */
+  text-align: center;
+  padding: 16px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Comfortaa';
+  text-decoration: none;
+
+}
+.nutrition p {
+  /* display: flex; */
+  text-align: center;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Comfortaa';
+  text-decoration: none;
+
+}
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.homepage {
+  background: #f76a8f;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+}
+.breakfast {
+  background: #f76a8f;
+  width: 60px;
+}
+.lunch {
+  background: #f76a8f;
+  width: 60px;
+}
+.snack {
+  background: #f76a8f;
+  width: 60px;
+}
+.dinner {
+  background: #f76a8f;
+  width: 60px;
+}
