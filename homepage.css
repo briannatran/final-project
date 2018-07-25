@@ -17,7 +17,7 @@ body{
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 13px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
@@ -52,9 +52,8 @@ h1{
   position:relative;
   position: absolute;
   left: 0;
-  top: 10%;
+  top: -5%;
   width: 100%;
   font-size: 120px;
-  text-shadow: 2px 2px 4px #000000;
   font-family:'Comfortaa';
   color: white;
