@@ -1,7 +1,7 @@
 
 function myFunction() {
     var txt;
-    var person = prompt("Please enter your name:", "");
+    var person = prompt("Please enter your name:", "Gilbert");
     if (person == null || person == "") {
         txt = "User cancelled the prompt.";
     } else {
