@@ -22,7 +22,7 @@ h3 {
 
 }
 #websiteicon{
-  width: 70px;
+  width: 50px;
 }
 
 body{
@@ -31,4 +31,32 @@ body{
 }
 #demo {
   text-align: center;
+  }
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 13px;
+    font-family:'Comfortaa';
+    text-decoration: none;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  .homepage {
+    background: #f76a8f;
   }
