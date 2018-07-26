@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="health.css">
 <script src="health.js"> </script>
 <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
@@ -41,10 +42,91 @@ Some time to just take things slow? Everyone needs a moment in their lives to un
 <!-- </div> -->
 <!-- border ends here -->
 </center>
+
+
+ <!-- SLIDESHOW CODE STARTS HERE -->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+<center>
+<div id="paragraph_font">
+Things to try: </div>
+<p></p>
+<div id="default_font">
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://tinyurl.com/ybks6rj4" style="width:50%"> </img> 
+    <p> <div class="text">photo by deanna alys on Unsplash</div> </p>
+          <div id="paragraph_font">
+            <div class="spaced_stuff">
+      - Skin care!
+            Taking care of your skin is super important! Since it's the largest organ on our bodies,
+            it should be taken care of! Keeping your skin clean can help you feel replenished
+            and fresh! It boosts your confidence and allows you to feel good while looking good! ;)
+            	• What works best for your skin?
+                    Everyone has different skin, some may be sensitive, dry, oily, etc.
+                    Do some research on what's best for your skin! You could go to your doctor
+                    to get more depth information on what skin type you have.
+              • Here are a few websites to go to for more information!:
+                    - <a href="http://stylecaster.com/beauty/skin-care-routine/" target="_blank"> Products You Need For Skincare</a>
+                    - <a href="https://www.nytimes.com/guides/tmagazine/skincare-routine" target="_blank"> Skincare Routines Advice </a>
+
+            </div>
+          </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://tinyurl.com/ycga3dfe" style="width:50%"></img>
+    <p> <div class="text">photo by Christina Manisap on weheartit</div> </p>
+          <div id="paragraph_font">
+            <div class="spaced_stuff">
+      -Take a bath!
+            Taking a bath can be relaxing and soothing for you! A warm bath can improve blood circulation
+            as well as digestion! It can also calm down the nervous system as well as reduce levels of stress
+            and anxiety! This can help improve your mood and allow your body to relax.
+          </div>
+        </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://tinyurl.com/y96uvfae" style="width:50%"></img>
+    <p><div class="text">photo by Vlad Gedroics on Unsplash</div></p>
+          <div id="paragraph_font">
+            <div class="spaced_stuff">
+      -Work out!
+            Working out can help enhance your lifestyle! It focuses on your personal health, fitness, and mental
+            state! It can be time consuming but it's definitely worth it!
+            • Here are a few tips!:
+                  - <a href="https://www.bodybuilding.com/content/10-must-read-beginner-workout-tips.html" target="_blank"> Fitness Tips </a>
+          </div>
+        </div>
+</div>
+
+</center>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<!-- SLIDESHOW CODE ENDS HERE -->
+
+
+<div class="spaced_stuff">
 <pre>
 <div id="paragraph_font">
                                                 Things to try: </div> <div id="default_font">
-      <img src="https://tinyurl.com/ybks6rj4" style="width:35%"> </img> </div> <div id="credit_font">
+      <img src="https://tinyurl.com/ybks6rj4" style="width:70%"> </img> </div> <div id="credit_font">
                                                                               photo by deanna alys on Unsplash </div>
 <div id="paragraph_font">
 - Skin care!
@@ -57,8 +139,7 @@ Some time to just take things slow? Everyone needs a moment in their lives to un
               to get more depth information on what skin type you have.
         • Here are a few websites to go to for more information!:
               - <a href="http://stylecaster.com/beauty/skin-care-routine/" target="_blank"> Products You Need For Skincare</a>
-              - <a href="https://www.bodybuilding.com/content/10-must-read-beginner-workout-tips.html" target="_blank"> Fitness Tips </a>
-              -
+              - <a href="https://www.nytimes.com/guides/tmagazine/skincare-routine" target="_blank"> Skincare Routines Advice </a>
 <p></p>
       <img src="https://tinyurl.com/ycga3dfe" style="width:35%"></img> <div id="credit_font">
                                                                               photo by Christina Manisap on weheartit </div>
@@ -72,9 +153,14 @@ Some time to just take things slow? Everyone needs a moment in their lives to un
 -Work out!
       Working out can help enhance your lifestyle! It focuses on your personal health, fitness, and mental
       state! It can be time consuming but it's definitely worth it!
+      • Here are a few tips!:
+        - <a href="https://www.bodybuilding.com/content/10-must-read-beginner-workout-tips.html" target="_blank"> Fitness Tips </a>
 
 </div>
 </pre>
-
+</div>
+<script>
+  showSlides(slideIndex);
+</script>
   </body>
 </html>
