@@ -13,7 +13,6 @@
   color:white;
   font-size:16px;
 }
-
 #credit_font {
   font-family: 'Philosopher', sans-serif;
   color:white;
@@ -25,4 +24,63 @@
   border-color:#ffffff;
   padding: 1em;
 
+}
+
+/*icon bar start*/
+.icon-bar {
+  position: absolute;
+  left:1%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 10px;
+  font-family:'Comfortaa';
+  text-decoration: none;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.homepage {
+  background: ##ffafaf;
+}
+
+.calendar {
+  background: ##ffafaf;
+}
+
+.health {
+  background: ##ffafaf;
+}
+
+.nutrition {
+  background: ##ffafaf;
+}
+
+.plant {
+  background: ##ffafaf;
+}
+
+h1{
+  text-align:center;
+  position:relative;
+  position: absolute;
+  left: 0;
+  top: -5%;
+  width: 100%;
+  font-size: 120px;
+  font-family:'Comfortaa';
+  color: white;
 }
