@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="food.css">
 <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-
+<!-- <script src= "food.js"></script> -->
 </head>
 <body>
   <div class="icon-bar">
@@ -14,6 +14,99 @@
   <br></br>
   <br></br>
   <br></br>
+
+
+  <div class="slideshowcontainer">
+    <div class="slide fade">
+    <b><a href="https://www.cookinglight.com/recipes/healthy-breakfast-smoothie" ><img src="https://image.flaticon.com/icons/svg/415/415732.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a  tasty smoothie recipe</div>
+  </div>
+
+
+    <div class="slide fade">
+    <b><a href="https://showmetheyummy.com/healthy-alfredo-sauce-recipe/" ><img src="https://image.flaticon.com/icons/svg/985/985567.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a savory pasta recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://www.superhealthykids.com/super-crispy-homemade-french-fries/" ><img src="https://image.flaticon.com/icons/svg/889/889689.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a baked fries recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://www.modernhoney.com/banana-oatmeal-pancakes/" ><img src="https://image.flaticon.com/icons/svg/590/590797.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a delicious pancake recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="http://www.eatingwell.com/recipe/254634/bacon-mango-tango-sliders/" ><img src="https://image.flaticon.com/icons/svg/878/878052.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a yummy burger recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://livingsweetmoments.com/skinny-homemade-baked-donuts-recipe/" ><img src="https://image.flaticon.com/icons/svg/579/579069.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a tasty donut recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://www.twopeasandtheirpod.com/tomato-cucumber-and-avocado-salad/" ><img src="https://image.flaticon.com/icons/svg/325/325559.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a good salad recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://www.shape.com/healthy-eating/healthy-recipes/30-awesome-avocado-toast-recipes" ><img src="https://image.flaticon.com/icons/svg/579/579097.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for ways to spicy up your avocado toast</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://cookieandkate.com/2015/mango-lassi-frozen-yogurt/"><img src="https://image.flaticon.com/icons/svg/810/810569.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a frozen yogurt recipe</div>
+  </div>
+
+    <div class="slide fade">
+    <b><a href="https://chocolatecoveredkatie.com/2017/01/16/healthy-banana-bread/" ><img src="https://image.flaticon.com/icons/svg/203/203310.svg" style="width:15%"></a></b>
+    <br>
+    <br>
+    <div class="text">Click me for a googy chocolate chip banana bread recipe</div>
+  </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ </div>
+
+ <div style="text-align:center">
+   <span class="dot" onclick="currentSlide(1)"></span>
+   <span class="dot" onclick="currentSlide(2)"></span>
+   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+<span class="dot" onclick="currentSlide(7)"></span>
+<span class="dot" onclick="currentSlide(8)"></span>
+<span class="dot" onclick="currentSlide(9)"></span>
+<span class="dot" onclick="currentSlide(10)"></span>
+ </div>
+
+<h5><center>TIPS</h5></center>
+
   <P><h3><center><img  src="https://image.flaticon.com/icons/svg/1000/1000118.svg" class= "breakfast" </img>BREAKFAST</center></h3></P>
 <h2><p><center> Breakfast is the most important meal of the day.</center></p></h2>
 <h2><p><center> Try eating a healthy meal like avocado toast or an apple to kickstart your day.</center></p></h2>
@@ -23,5 +116,41 @@
 <h2><p><center> When you get home from school remember to eat a healthy snack like apples and peanut butter.</center></p></h2>
 <P><h3><center><img  src="https://image.flaticon.com/icons/svg/877/877819.svg" class= "dinner" </img>DINNER</center></h3></P>
 <h2><p><center> A fun fact about pasta is it is really good for you. Switch your usual dinner with some pasta.</center></p></h2>
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide fade");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+
+
 </body>
 </html>
