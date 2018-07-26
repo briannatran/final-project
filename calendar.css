@@ -1,0 +1,215 @@
+
+
+
+/** How To Create A Simple Dynamic Calendar Table With PHP | Tutorial.World.Edu **/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('http://jlalovi-cv.herokuapp.com/font/icomoon.eot');
+	src:url('http://jlalovi-cv.herokuapp.com/font/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('http://jlalovi-cv.herokuapp.com/font/icomoon.ttf') format('truetype'),
+		url('http://jlalovi-cv.herokuapp.com/font/icomoon.woff') format('woff'),
+		url('http://jlalovi-cv.herokuapp.com/font/icomoon.svg#icomoon') format('svg');
+	font-weight: bold;
+	font-style: oblique;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: oblique;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 3;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-cloudy:before {
+	content: "\e60f";
+}
+.icon-sun:before {
+	content: "\e610";
+}
+.icon-cloudy2:before {
+	content: "\e611";
+}
+/************************************* END FONTS *************************************/
+/** MAIN CONTAINER **/
+
+.main-container {
+	font-family: 'Ubuntu', sans-serif;
+	width: 1450px;
+	height: 10000px;
+	margin: 6em auto;
+}
+
+	/** CONTAINERS **/
+	.container {
+		float: left;
+		width: 1200px;
+	}
+		.block {
+			margin-bottom: 180px;
+			background: #EC89FC;
+			border-radius: 100;
+		}
+    .right-container {}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	background-color: pink;
+}
+
+
+h1 {
+	font-size: 600px;
+  background-color: #9D6543;
+}
+
+h2 {
+	font-size: 70px;
+}
+
+p {
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 15px;
+}
+	a:hover {
+		text-decoration: underline;
+	}
+
+h1, h2, p, a, span{
+	color: #hotpink;
+}
+	.scnd-font-color {
+		color: hotpink;
+		line-height: 2;
+	}
+th, td{
+  padding: 65px;
+  background-color: lightpink;
+}
+.icon {
+	font-size: 25px;
+}
+
+.titular {
+	display: block;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.arrow-btn-container {
+	position: relative;
+}
+	.arrow-btn {
+		position: absolute;
+		display: block;
+		width: 100px;
+		height: 100px;
+		-webkit-transition: background .3s;
+		transition: background .3s;
+	}
+		.arrow-btn:hover {
+			text-decoration: none;
+		}
+		.arrow-btn.left {
+			border-top-left-radius: 5px;
+		}
+		.arrow-btn.right {
+			border-top-right-radius: 5px;
+			right: 0;
+			top: 0;
+		}
+		.arrow-btn .icon {
+			display: block;
+			font-size: 18px;
+			border: 2px solid #fff;
+			border-radius: 100%;
+			line-height: 17px;
+			width: 21px;
+			margin: 20px auto;
+			text-align: center;
+		}
+			.arrow-btn.left .icon {
+				padding-right: 2px;
+			}
+
+			.calendar-day {
+				height: 320px;
+				background: hotpink;
+			}
+				.calendar-day .titular {
+					background: black;
+				}
+					.calendar-day .arrow-btn:hover {
+						background-color: black;
+					}
+				.calendar-day .the-day {
+					margin: 5;
+					text-align: center;
+					font-size: 500px;
+				}
+				.add-event.button {
+					background-color: pink;
+				}
+					.add-event.button:hover {
+						background-color: black;
+					}
+			.calendar-month {
+				height: 380px;
+			}
+				.calendar-month .titular {
+					background-color: hotpink;
+				}
+					.calendar-month .arrow-btn:hover {
+						background-color: black;
+					}
+				.calendar {
+					margin: 22px 15px;
+					text-align: center;
+				}
+					.calendar a {
+						font-size: 30px;
+					}
+					.calendar td, .calendar th {
+						width: 100px;
+						height: 80px;
+					}
+					.calendar .days-week {
+						color: #black;
+					}
+					.calendar .today {
+						display: block;
+						width: 34px;
+						line-height: 50px;
+						background-color: black;
+						border-radius: 100%;
+					}

@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <script src="Tanaejah.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><p> "Your Key To Peace CALENDAR" </p></title>
+<!-- <link type='text/css' rel='stylesheet' href='calendar.css' /> -->
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #FF9AD1;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+/* The Close Button */
+.close {
+    color: #FF9AD1;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="calendar.css">
+
+
+</head>
+<body>
+
+  <!-- Trigger/Open The Modal -->
+  <!-- <h1 id="myBtn">1</h1> -->
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="daily"></p>
+    </div>
+
+  </div>
+
+
+
+
+    <div class="main-container">
+        <div class="right-container container">
+            <div class="calendar-month block"> <!-- CALENDAR MONTH -->
+                    <div class="arrow-btn-container">
+                        <a class="arrow-btn left" href=""><span class="icon fontawesome-angle-left"></span></a>
+                        <h2 class="titular">AUGUST 2018</h2>
+                        <a class="arrow-btn right" href=""><span class="icon fontawesome-angle-right"></span></a>
+                    </div>
+                    <table class="calendar">
+                        <thead class="days-week">
+                            <tr>
+                                <th>S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>R</th>
+                                <th>F</th>
+                                <th>S</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><a  class="myBtn">1       </a></td>
+                                <td><a  class="myBtn">2       </a></td>
+                                <td><a class="myBtn">3        </a></td>
+                                <td><a class="myBtn">4        </a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a class="myBtn">5</a></td>
+                                <td><a class="myBtn">6</a></td>
+                                <td><a class="myBtn">7</a></td>
+                                <td><a class="myBtn">8</a></td>
+                                <td><a class="myBtn">9</a></td>
+                                <td><a class="myBtn">10</a></td>
+                                <td><a class="myBtn">11</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="myBtn">12</a></td>
+                                <td><a class="myBtn">13</a></td>
+                                <td><a class="myBtn">14</a></td>
+                                <td><a class="myBtn">15</a></td>
+                                <td><a class="myBtn">16</a></td>
+                                <td><a class="myBtn">17</a></td>
+                                <td><a class="myBtn">18</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="myBtn">19</a></td>
+                                <td><a class="myBtn">20</a></td>
+                                <td><a class="myBtn">21</a></td>
+                                <td><a class="myBtn">22</a></td>
+                                <td><a class="myBtn">23</a></td>
+                                <td><a class="myBtn">24</a></td>
+                                <td><a class="myBtn">25</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="myBtn">26</a></td>
+                                <td><a class="myBtn">27</a></td>
+                                <td><a class="myBtn">28</a></td>
+                                <td><a class="myBtn">29</a></td>
+                                <td><a class="myBtn">30</a></td>
+                                <td><a class="myBtn">31</a></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div> <!-- end calendar-month block -->
+        </div> <!-- end right-container -->
+    </div> <!-- end main-container -->
+
+
+    <script>
+    var quotes=["Raise your words, not voice. It is rain that grows flowers, not thunder. - Jalal ad-Din Rumi","“Only those who will risk going too far can possibly find out how far one can go.”  ― T.S. Eliot","Don't be afraid of failure and stop trying, chase failure so you can keep improving","We encounter many defeats but, we must not be defeated.-By Maya Angelou","If you always try to be normal you will never know how amazing you can be","It's okay to be a glowstick. Sometimes we need to break before we shine. - Kian Lawley","Life is like a camera , you focus on what's important, capture the good times, develop from the negative and if things don't work out, take another shot . - Ziad K. Abdelnour"];
+    var item = quotes[Math.floor(Math.random()*quotes.length)];
+    document.getElementById("daily").innerHTML = item;
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementsByClassName("myBtn")[0];
+    var btn1 = document.getElementsByClassName("myBtn")[1];
+    var btn2 = document.getElementsByClassName("myBtn")[2];
+    var btn3 = document.getElementsByClassName("myBtn")[3];
+    var btn4 = document.getElementsByClassName("myBtn")[4];
+    var btn5 = document.getElementsByClassName("myBtn")[5];
+    var btn6 = document.getElementsByClassName("myBtn")[6];
+    var btn7 = document.getElementsByClassName("myBtn")[7];
+    var btn8 = document.getElementsByClassName("myBtn")[8];
+    var btn9 = document.getElementsByClassName("myBtn")[9];
+    var btn10 = document.getElementsByClassName("myBtn")[10];
+    var btn11 = document.getElementsByClassName("myBtn")[11];
+    var btn12 = document.getElementsByClassName("myBtn")[12];
+    var btn13 = document.getElementsByClassName("myBtn")[13];
+    var btn14 = document.getElementsByClassName("myBtn")[14];
+    var btn15 = document.getElementsByClassName("myBtn")[15];
+    var btn16 = document.getElementsByClassName("myBtn")[16];
+    var btn17 = document.getElementsByClassName("myBtn")[17];
+    var btn18 = document.getElementsByClassName("myBtn")[18];
+    var btn19 = document.getElementsByClassName("myBtn")[19];
+    var btn20 = document.getElementsByClassName("myBtn")[20];
+    var btn21 = document.getElementsByClassName("myBtn")[21];
+    var btn22 = document.getElementsByClassName("myBtn")[22];
+    var btn23 = document.getElementsByClassName("myBtn")[23];
+    var btn24 = document.getElementsByClassName("myBtn")[24];
+    var btn25 = document.getElementsByClassName("myBtn")[25];
+    var btn26 = document.getElementsByClassName("myBtn")[26];
+    var btn27 = document.getElementsByClassName("myBtn")[27];
+    var btn28 = document.getElementsByClassName("myBtn")[28];
+    var btn29 = document.getElementsByClassName("myBtn")[29];
+    var btn30 = document.getElementsByClassName("myBtn")[30];
+
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn1.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn2.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn3.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn4.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn5.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn6.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn7.onclick = function() {
+         modal.style.display = "block";
+     }
+    btn8.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn9.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn10.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn11.onclick = function() {
+         modal.style.display = "block";
+     }
+     btn12.onclick = function() {
+         modal.style.display = "block";
+     }
+    btn13.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn14.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn15.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn16.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn17.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn18.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn19.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn20.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn21.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn22.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn23.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn24.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn25.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn26.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn27.onclick = function() {
+        modal.style.display = "block";
+    }
+    btn28.onclick = function() {
+        modal.style.display = "block";
+    }
+     btn29.onclick = function() {
+         modal.style.display = "block";
+    }
+    btn30.onclick = function() {
+         modal.style.display = "block";
+       }
+
+
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+
+    </body>
+</html>
