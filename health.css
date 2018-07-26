@@ -1,0 +1,28 @@
+#header_font {
+  font-family: 'Philosopher', sans-serif;
+  color:white;
+  font-size:56px;
+}
+#paragraph_font {
+  font-family: 'Philosopher', sans-serif;
+  color:white;
+  font-size:18px;
+}
+#default_font {
+  font-family: 'Philosopher', sans-serif;
+  color:white;
+  font-size:16px;
+}
+
+#credit_font {
+  font-family: 'Philosopher', sans-serif;
+  color:white;
+  font-size:14px;
+}
+#border {
+  border:6px;
+  border-style:solid;
+  border-color:#ffffff;
+  padding: 1em;
+
+}
