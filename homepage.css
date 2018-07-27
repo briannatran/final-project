@@ -60,10 +60,10 @@ h1{
   color: white;
 }
 /*For Audio Player*/
-.thing {
+/* .thing {
   display: flex;
-}
-.audio{
+} */
+audio {
   /* float: right;*/
   top: 50%;
   display: block;
