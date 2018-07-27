@@ -1,20 +1,24 @@
 #header_font {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Comfortaa';
+  font-weight: bold;
   color:white;
-  font-size:56px;
+  font-size:54px;
 }
 #paragraph_font {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Comfortaa';
+  font-weight: bold;
   color:white;
-  font-size:18px;
+  font-size:17px;
 }
 #default_font {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Comfortaa';
+  font-weight: bold;
   color:white;
-  font-size:16px;
+  font-size:15px;
 }
 #credit_font {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Comfortaa';
+  font-weight: bold;
   color:white;
   font-size:14px;
 }
@@ -43,7 +47,7 @@
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
@@ -193,6 +197,8 @@
 }
 
 /* --- SLIDESHOW CODE ENDS HERE --- */
+
+
 
 .spaced_stuff {
   width: 40em;
