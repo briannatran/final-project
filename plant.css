@@ -1,0 +1,92 @@
+h1 {
+  text-align:center;
+  position:relative;
+  position: absolute;
+  left: 0;
+  top: -5%;
+  width: 100%;
+  font-size: 50px;
+  font-family:'Comfortaa';
+  color: white;
+}
+h2 {
+  margin: 0;
+  font-family:'Comfortaa';
+  text-align: center;
+  font-weight: bold;
+  font-size:50px;
+}
+h3 {
+  margin: 0;
+  font-family:'Comfortaa';
+  font-size:20px;
+}
+h5 {
+  margin: 0;
+  font-family:'Comfortaa';
+  font-size:15px;
+}
+body {
+  background-color: #f76a8f;
+  color: white;
+}
+img{
+  width: 70px;
+}
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 13px;
+    font-family:'Comfortaa';
+    text-decoration: none;
+  }
+
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  .homepage {
+    background: #f76a8f;
+  }
+
+#circle_img{
+  margin-top: -20px;
+  width:40%;
+
+}
+h4{
+margin: 0;
+font-family:'Comfortaa';
+font-size:20;
+text-align: center;
+font-weight: bold;
+}
+#circle {
+  margin: -40;
+  font-family:'Comfortaa';
+  font-size:20;
+  text-align: center;
+  font-weight: bold;
+}
+a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  font-family:'Comfortaa';
+  text-decoration: none;
+}

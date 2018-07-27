@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="plant.css">
+<link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+ <meta charset="utf-8"/>
+ <script type="text/javascript">
+
+ /* This program will swap an image when it is clicked by using the getElementById() method
+ The program will use an image_tracker variable to keep track of which image is currently displayed
+ We can use an IF statement to check if the orange picture is being displayed,
+ then swap with the blue one, and vice versa.
+ */
+
+ var image_tracker = 'first';
+
+ function change(){
+   var txt;
+ var image = document.getElementById('circle_img');
+ if(image_tracker=='first'){
+ image.src="IMG_6220.PNG";
+ image_tracker='second';
+  txt= "I need three more cups of water(25oz each cup).";
+ }
+  else if(image_tracker=='second'){
+ image.src='IMG_6221.PNG';
+ image_tracker='third';
+  txt="Woohoo I am growing. I need two more cups of water. Remeber to hydrate yourself because you are like a plant.";
+ }
+ else if(image_tracker=='third'){
+image.src='IMG_6222.PNG';
+image_tracker='third';
+  txt="Thank you for watering me! It is important not to drink too much water at once. Come back later to help me."
+}
+ else{
+ image.src='IMG_6219.PNG';
+ image_tracker='first';
+ }
+ document.getElementById("circle").innerHTML = txt;
+
+ }
+
+ </script>
+
+</head>
+<body>
+  <div class="icon-bar">
+  <b><a href="homepage.html" class="homepage"><img src="https://image.flaticon.com/icons/svg/781/781244.svg" ></a></b>
+  </div>
+<center><h1>PLANT</h1></center>
+  <br>
+  <br>
+  <br>
+  <center><h4>Hello I am Eve! I am a special type of plant that needs 100oz of water a day just like humans. Click me!</center></h4>
+  <center><p id="circle"></p></center>
+
+<center><img src="IMG_6219.PNG" alt="Circle" id="circle_img" onclick="change();"></center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br><br>
+<center><p><h2>CITATION</p></h2></center>
+<center><a href="https://www.vecteezy.com" target="_blank"><h6> Free vector art via www.Vecteezy.com </h6> <img src="IMG_6227.PNG" style="width:15%"></a></center>
+</body>
+</html>
