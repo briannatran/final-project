@@ -129,7 +129,7 @@ img {vertical-align: middle;}
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
@@ -163,10 +163,7 @@ img {vertical-align: middle;}
 
 .homepage {
   background: #f76a8f;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
+  width: 75px;
 }
 .breakfast {
   background: #f76a8f;
@@ -184,6 +181,23 @@ img {vertical-align: middle;}
   background: #f76a8f;
   width: 60px;
 }
+
+.calendar {
+  background: #f76a8f;
+  width: 75px;
+}
+
+.health {
+  background: #f76a8f;
+  width: 75px;
+}
+
+.nutrition {
+  background: #f76a8f;
+  width: 85px;
+}
+
+
 .slide {
   /* background: #f76a8f;
   width: 80px; */
