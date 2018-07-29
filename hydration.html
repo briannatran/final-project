@@ -6,14 +6,22 @@
   </head>
 
   <body>
+    <div class="icon-bar">
+      <b><a href="homepage.html" class="homepage">HOME<img src="https://image.flaticon.com/icons/svg/781/781244.svg" ></a>
+        <a href="calendar.html" class="calendar">CALENDAR<img src="https://image.flaticon.com/icons/svg/1033/1033973.svg" ></a>
+        <a href="health.html" class="health">HEALTH<img src="https://image.flaticon.com/icons/svg/375/375279.svg" ></a>
+        <a href="nutrition.html" class="nutrition">NUTRITION<img src="https://image.flaticon.com/icons/svg/135/135763.svg" ></a>
+        <a href="plant.html" class="plant">PLANT<img src="https://image.flaticon.com/icons/svg/733/733743.svg" ></a></b>
+    </div>
+
     <p>Keep track of your water drinkage!
     <br>
     <br>The cup represents 8oz.
-    <br>The bottle represent 16oz.
-    <br>The pitcher represent 32oz.</p>
+    <br>The bottle represents 16oz.
+    <br>The pitcher represents 32oz.</p>
 
     <progress id="myProgress" value="0" max="104"></progress>
-    <!-- <b><div id="myBar">0</div></b> -->
+
     <div class = "image">
       <img onclick="myFunction()" src = "https://image.flaticon.com/icons/svg/570/570666.svg"></img>
       <img onclick="anotherFunction()" src = "https://image.flaticon.com/icons/svg/571/571474.svg"></img>
@@ -21,31 +29,7 @@
       <img onclick="reset()"  src = "https://image.flaticon.com/icons/svg/283/283751.svg"></img>
     </div>
 
-    <!-- <progress id="water" value="0" max="104"></progress>
-      <img id="add8oz" src = "https://image.flaticon.com/icons/svg/570/570666.svg">
-      <img id="add168oz" src = "https://image.flaticon.com/icons/svg/571/571474.svg">
-      <img id="add64oz" src = "https://image.flaticon.com/icons/svg/877/877786.svg"> -->
-
-      <!-- <button id="add8oz"><img src = "https://image.flaticon.com/icons/svg/570/570666.svg"></button>
-      <button id="add16oz"><img src = "https://image.flaticon.com/icons/svg/571/571474.svg"></button>
-      <button id="add64oz"><img src = "https://image.flaticon.com/icons/svg/877/877786.svg"></button> -->
-      <div id="val"></div>
       <script src="hydration.js"></script>
-
-      <!-- <script>
-      function va() {
-      document.getElementById('val').innerHTML = water.value;
-      }
-
-
-      water = document.getElementById('water');
-      const add8oz = document.getElementById('add8oz');
-      const add16oz = document.getElementById('add16oz');
-      const add64oz = document.getElementById('add64oz');
-      const
-      add8oz.addEventListener('click', () => { water.value += 8;  va() });
-      add16oz.addEventListener('click', () => { water.value += 16;  va() });
-      add64oz.addEventListener('click', () => { water.value += 64; va() });
-    </script> -->
+      
   </body>
 </html>
