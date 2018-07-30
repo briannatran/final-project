@@ -88,7 +88,7 @@ a {
 }
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #f76a8f;
 }
 
 .homepage {
@@ -120,6 +120,13 @@ a {
   width:35%;
 
 }
+.food img:hover {
+  background-color: #f76a8f;
+}
+.hydration img:hover {
+  background-color: #f76a8f;
+}
+
 .hydration {
   background: #ffafaf;
   /* box-sizing: border-box; */
