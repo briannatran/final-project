@@ -58,7 +58,7 @@ body {
 
   /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
-    background-color: #000;
+    background-color: #f76a8f;
   }
 
   .homepage {
@@ -101,6 +101,9 @@ font-weight: bold;
   text-align: center;
   font-weight: bold;
 }
+/* #circle_img img:hover {
+  background-color: #000;
+} */
 a {
   display: block;
   text-align: center;
