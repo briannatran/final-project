@@ -13,10 +13,10 @@ h2 {
   font-size:130;
 }
 h3 {
+  font-family:'Comfortaa';
   color: white;
   font-size: 15px;
-  font-weight: bold;
-  font-family:'Comfortaa';
+  font-weight: bold
 }
 #myimage{
   width: 50px;
