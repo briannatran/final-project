@@ -7,7 +7,7 @@ body{
 }
 /* Icon Bar */
 .icon-bar {
-  width: 7%;
+  width: 8%;
 }
 
 /* Style the icon bar links */
@@ -20,6 +20,7 @@ body{
   font-size: 12px;
   font-family:'Comfortaa';
   text-decoration: none;
+  font-weight: bold;
 }
 .icon-bar a:hover {
   background-color: #000;
@@ -48,9 +49,9 @@ body{
 
 /* Instructions */
 .main-text {
-  width: 93%;
+  width: 92%;
   display: inline;
-  
+
 }
 
 /* Progress Bar */
@@ -59,7 +60,7 @@ progress {
 	width:90%;
 	height:20px;
 	padding:50px 10px 60px 10px;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -109,9 +110,18 @@ progress:after {
   height: 8%;
 }
 
+h1 {
+  text-align: center;
+  font-family: "Comfortaa";
+  font-size: 76px;
+  color: white;
+  font-weight: bold;
+}
+
 p {
   text-align: center;
   font-family: "Comfortaa";
-  font-size: 32px;
+  font-size: 28px;
   color: white;
+  font-weight: bold;
 }
