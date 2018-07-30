@@ -5,7 +5,7 @@ h1{
   left: 0;
   top: -5%;
   width: 100%;
-  font-size: 100px;
+  font-size: 70px;
   font-family:'Comfortaa';
   color: white;
 }
@@ -129,7 +129,7 @@ img {vertical-align: middle;}
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 12px;
+  font-size: 13px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
@@ -163,7 +163,7 @@ img {vertical-align: middle;}
 
 .homepage {
   background: #f76a8f;
-  width: 75px;
+  width: 80px;
 }
 .breakfast {
   background: #f76a8f;
@@ -184,17 +184,17 @@ img {vertical-align: middle;}
 
 .calendar {
   background: #f76a8f;
-  width: 75px;
+  width: 80px;
 }
 
 .health {
   background: #f76a8f;
-  width: 75px;
+  width: 80px;
 }
 
 .nutrition {
   background: #f76a8f;
-  width: 85px;
+  width: 80px;
 }
 
 
