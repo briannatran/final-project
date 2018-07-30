@@ -3,13 +3,17 @@
 <head>
   <script src="Tanaejah.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><p> "Your Key To Peace CALENDAR" </p></title>
+
+<div class="container2">
+<div class="icon-bar">
+<b><a href="homepage.html" class="homepage">HOME<img src="https://image.flaticon.com/icons/svg/781/781244.svg" ></a>
+</div>
+</div>
 <!-- <link type='text/css' rel='stylesheet' href='calendar.css' /> -->
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
-
-/* The Modal (background) */
+ /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -23,8 +27,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
-/* Modal Content */
+ /* Modal Content */
 .modal-content {
     background-color: #FF9AD1;
     margin: auto;
@@ -32,48 +35,35 @@ body {font-family: Arial, Helvetica, sans-serif;}
     border: 1px solid #888;
     width: 60%;
 }
-
-/* The Close Button */
+ /* The Close Button */
 .close {
     color: #FF9AD1;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
-.close:hover,
+ .close:hover,
 .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
-
-
-</style>
+ </style>
 <link rel="stylesheet" type="text/css" href="calendar.css">
-
-
-</head>
+ </head>
+ <center><h1>Your Key To Peace CALENDAR </h1></center>
 <body>
-
-  <!-- Trigger/Open The Modal -->
+   <!-- Trigger/Open The Modal -->
   <!-- <h1 id="myBtn">1</h1> -->
-
-  <!-- The Modal -->
+   <!-- The Modal -->
   <div id="myModal" class="modal">
-
-    <!-- Modal content -->
+     <!-- Modal content -->
     <div class="modal-content">
       <span class="close">&times;</span>
       <p id="daily"></p>
     </div>
-
-  </div>
-
-
-
-
-    <div class="main-container">
+   </div>
+     <div class="main-container">
         <div class="right-container container">
             <div class="calendar-month block"> <!-- CALENDAR MONTH -->
                     <div class="arrow-btn-container">
@@ -102,8 +92,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
                                 <td><a  class="myBtn">2       </a></td>
                                 <td><a class="myBtn">3        </a></td>
                                 <td><a class="myBtn">4        </a></td>
-
-                            </tr>
+                             </tr>
                             <tr>
                                 <td><a class="myBtn">5</a></td>
                                 <td><a class="myBtn">6</a></td>
@@ -151,16 +140,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
             </div> <!-- end calendar-month block -->
         </div> <!-- end right-container -->
     </div> <!-- end main-container -->
-
-
-    <script>
+     <script>
     var quotes=["Raise your words, not voice. It is rain that grows flowers, not thunder. - Jalal ad-Din Rumi","“Only those who will risk going too far can possibly find out how far one can go.”  ― T.S. Eliot","Don't be afraid of failure and stop trying, chase failure so you can keep improving","We encounter many defeats but, we must not be defeated.-By Maya Angelou","If you always try to be normal you will never know how amazing you can be","It's okay to be a glowstick. Sometimes we need to break before we shine. - Kian Lawley","Life is like a camera , you focus on what's important, capture the good times, develop from the negative and if things don't work out, take another shot . - Ziad K. Abdelnour"];
     var item = quotes[Math.floor(Math.random()*quotes.length)];
     document.getElementById("daily").innerHTML = item;
     // Get the modal
     var modal = document.getElementById('myModal');
-
-    // Get the button that opens the modal
+     // Get the button that opens the modal
     var btn = document.getElementsByClassName("myBtn")[0];
     var btn1 = document.getElementsByClassName("myBtn")[1];
     var btn2 = document.getElementsByClassName("myBtn")[2];
@@ -192,13 +178,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
     var btn28 = document.getElementsByClassName("myBtn")[28];
     var btn29 = document.getElementsByClassName("myBtn")[29];
     var btn30 = document.getElementsByClassName("myBtn")[30];
-
-
-    // Get the <span> element that closes the modal
+     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
-
-
-    // When the user clicks the button, open the modal
+     // When the user clicks the button, open the modal
     btn.onclick = function() {
         modal.style.display = "block";
     }
@@ -292,22 +274,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
     btn30.onclick = function() {
          modal.style.display = "block";
        }
-
-
-
-    // When the user clicks on <span> (x), close the modal
+     // When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
     }
-
-    // When the user clicks anywhere outside of the modal, close it
+     // When the user clicks anywhere outside of the modal, close it
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
     }
     </script>
-
-
-    </body>
+     </body>
 </html>
