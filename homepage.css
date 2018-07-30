@@ -73,11 +73,31 @@ audio {
   width: 20%;
 }
 
-.trigger {
-  margin-right: auto;
+button {
+  outline: #ffafaf;
+  background: #ffafaf;
+  background-image: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+  border-radius: 28px;
+  font-family: 'Comfortaa';
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 19px;
+  display: block;
+  margin-top: 5%;
   margin-left: auto;
-  text-align: center;
+  margin-right: auto;
+}
 
+button :hover {
+    background: #2079b0;
+    background-image: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+    text-decoration: none;
+}
+
+.trigger :focus {
+    outline: #ffafaf;
 }
 
 .modal {
