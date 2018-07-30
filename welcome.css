@@ -13,9 +13,10 @@ h2 {
   font-size:130;
 }
 h3 {
-  margin: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
   font-family:'Comfortaa';
-  font-size:20;
 }
 #myimage{
   width: 50px;
@@ -23,10 +24,11 @@ h3 {
 }
 #websiteicon{
   width: 50px;
+
 }
 
 body{
-  background-color: #f76a8f;
+  background-color: #ffafaf;
   color: white;
 }
 #demo {
@@ -58,5 +60,5 @@ body{
   }
 
   .homepage {
-    background: #f76a8f;
+    background: #ffafaf;
   }

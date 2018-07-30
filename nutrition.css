@@ -5,7 +5,7 @@ h1{
   left: 0;
   top: -5%;
   width: 100%;
-  font-size: 100px;
+  font-size: 70px;
   font-family:'Comfortaa';
   color: white;
 }
@@ -15,7 +15,7 @@ h1{
     padding: 5px;
 } */
 body{
-  background-color: #f76a8f;
+  background-color: #ffafaf;
 }
 
 .icon-bar {
@@ -33,13 +33,13 @@ body{
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
-.nutrition{
+/* .nutrition{
   margin-left: 330px;
-}
+} */
 
 .nutrition a {
   /* display: flex; */
@@ -54,7 +54,7 @@ body{
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 40em;
   padding: 5px;
   display: table; /* shrink wrap the contents */
   margin: 0 auto;
@@ -92,27 +92,39 @@ a {
 }
 
 .homepage {
-  background: #f76a8f;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width:100%;
+  background: #ffafaf;
 }
-.food {
-  background: #f76a8f;
-  /* box-sizing: border-box; */
 
+.calendar {
+  background: #ffafaf;
+}
+
+.health {
+  background: #ffafaf;
+}
+
+.nutrition {
+  background: #ffafaf;
+}
+
+.plant {
+  background: #ffafaf;
+}
+
+.food {
+  background: #ffafaf;
+  /* box-sizing: border-box; */
   display:inline-block;
   margin-left: auto;
   margin-right: auto;
-  width:65%;
+  width:35%;
 
 }
 .hydration {
-  background: #f76a8f;
+  background: #ffafaf;
   /* box-sizing: border-box; */
   display:inline-block;
   margin-left: auto;
   margin-right: auto;
-  width:65%;
+  width:35%;
 }

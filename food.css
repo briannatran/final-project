@@ -5,7 +5,7 @@ h1{
   left: 0;
   top: -5%;
   width: 100%;
-  font-size: 70px;
+  font-size: 60px;
   font-family:'Comfortaa';
   color: white;
 }
@@ -69,7 +69,7 @@ h3{
     padding: 5px;
 } */
 body{
-  background-color: #f76a8f;
+  background-color: #ffafaf;
 }
 
 * {box-sizing: border-box}
@@ -162,41 +162,39 @@ img {vertical-align: middle;}
 }
 
 .homepage {
-  background: #f76a8f;
-  width: 80px;
+  background: #ffafaf;
 }
 .breakfast {
-  background: #f76a8f;
+  background: #ffafaf;
   width: 60px;
 }
 .lunch {
-  background: #f76a8f;
+  background: #ffafaf;
   width: 60px;
 }
 .snack {
-  background: #f76a8f;
+  background: #ffafaf;
   width: 60px;
 }
 .dinner {
-  background: #f76a8f;
+  background: #ffafaf;
   width: 60px;
 }
 
 .calendar {
-  background: #f76a8f;
-  width: 80px;
+  background: #ffafaf;
 }
 
 .health {
-  background: #f76a8f;
-  width: 80px;
+  background: #ffafaf;
 }
 
 .nutrition {
-  background: #f76a8f;
-  width: 80px;
+  background: #ffafaf;
 }
-
+.plant{
+  background: #ffafaf;
+}
 
 .slide {
   /* background: #f76a8f;
