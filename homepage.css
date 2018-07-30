@@ -187,13 +187,16 @@ audio {
         transform: translate(-50%, -50%);
         background-color: white;
         padding: 1rem 1.5rem;
-        width: 24rem;
-        border-radius: 0.5rem;
+        width: 70%;
+        height: 90%;
+        border-radius: 20px;
+        overflow: auto;
 }
 .close-button2 {
         float: right;
-        width: 1.5rem;
-        line-height: 1.5rem;
+        width: 50px;
+        line-height: 50px;
+        font-size: 24px;
         text-align: center;
         cursor: pointer;
         border-radius: 0.25rem;
@@ -207,4 +210,62 @@ audio {
         visibility: visible;
         transform: scale(1.0);
         transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+/* Three columns side by side */
+.column {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* float: left; */
+    width: 50%;
+    height: 50%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #ff6666;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #ff9999;
 }
