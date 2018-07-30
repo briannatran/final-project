@@ -32,7 +32,7 @@
 
 /*icon bar start*/
 .icon-bar {
-  position: absolute;
+  position: fixed;
   left:1%;
   top: 50%;
   -webkit-transform: translateY(-50%);
