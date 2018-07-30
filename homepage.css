@@ -223,6 +223,7 @@ audio {
     height: 50%;
     margin-bottom: 16px;
     padding: 0 8px;
+    font-family: 'Comfortaa';
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -264,6 +265,8 @@ audio {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-family: 'Comfortaa';
+    font-weight: bold;
 }
 
 .button:hover {
