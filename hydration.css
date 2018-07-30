@@ -49,9 +49,24 @@ body{
 
 /* Instructions */
 .main-text {
-  width: 92%;
+  width: 85%;
   display: inline;
+}
 
+h1 {
+  text-align: center;
+  font-family: "Comfortaa";
+  font-size: 72px;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-family: "Comfortaa";
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
 }
 
 /* Progress Bar */
@@ -108,20 +123,4 @@ progress:after {
 .image img {
   width: 8%;
   height: 8%;
-}
-
-h1 {
-  text-align: center;
-  font-family: "Comfortaa";
-  font-size: 76px;
-  color: white;
-  font-weight: bold;
-}
-
-p {
-  text-align: center;
-  font-family: "Comfortaa";
-  font-size: 28px;
-  color: white;
-  font-weight: bold;
 }
