@@ -6,30 +6,35 @@
   </head>
 
   <body>
-    <div class="icon-bar">
-      <b><a href="homepage.html" class="homepage">HOME<img src="https://image.flaticon.com/icons/svg/781/781244.svg" ></a>
+    <div class="container">
+      <!-- Navigation -->
+      <div class="icon-bar">
+        <a href="homepage.html" class="homepage">HOME<img src="https://image.flaticon.com/icons/svg/781/781244.svg" ></a>
         <a href="calendar.html" class="calendar">CALENDAR<img src="https://image.flaticon.com/icons/svg/1033/1033973.svg" ></a>
         <a href="health.html" class="health">HEALTH<img src="https://image.flaticon.com/icons/svg/375/375279.svg" ></a>
         <a href="nutrition.html" class="nutrition">NUTRITION<img src="https://image.flaticon.com/icons/svg/135/135763.svg" ></a>
-        <a href="plant.html" class="plant">PLANT<img src="https://image.flaticon.com/icons/svg/733/733743.svg" ></a></b>
+        <a href="plant.html" class="plant">PLANT<img src="https://image.flaticon.com/icons/svg/733/733743.svg" ></a>
+      </div>
+      <!-- Text -->
+      <div class="main-text">
+        <p>Keep track of your water drinkage!</p>
+        <p>The cup represents 8oz.</p>
+        <p>The bottle represents 16oz.</p>
+        <p>The pitcher represents 32oz.</p>
+
+        <!-- Tracker -->
+
+        <progress id="myProgress" value="0" max="104"></progress>
+
+        <div class = "image">
+          <img onclick="myFunction()" src = "https://image.flaticon.com/icons/svg/570/570666.svg"></img>
+          <img onclick="anotherFunction()" src = "https://image.flaticon.com/icons/svg/571/571474.svg"></img>
+          <img onclick="moreFunction()" src = "https://image.flaticon.com/icons/svg/877/877786.svg"></img>
+          <img onclick="reset()"  src = "https://image.flaticon.com/icons/svg/283/283751.svg"></img>
+        </div>
+      </div>
     </div>
-
-    <p>Keep track of your water drinkage!
-    <br>
-    <br>The cup represents 8oz.
-    <br>The bottle represents 16oz.
-    <br>The pitcher represents 32oz.</p>
-
-    <progress id="myProgress" value="0" max="104"></progress>
-
-    <div class = "image">
-      <img onclick="myFunction()" src = "https://image.flaticon.com/icons/svg/570/570666.svg"></img>
-      <img onclick="anotherFunction()" src = "https://image.flaticon.com/icons/svg/571/571474.svg"></img>
-      <img onclick="moreFunction()" src = "https://image.flaticon.com/icons/svg/877/877786.svg"></img>
-      <img onclick="reset()"  src = "https://image.flaticon.com/icons/svg/283/283751.svg"></img>
-    </div>
-
       <script src="hydration.js"></script>
-      
+
   </body>
 </html>
