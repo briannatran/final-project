@@ -89,11 +89,8 @@ body{
   position: relative;
   margin: auto;
 }
-.prev:hover, .next:hover {
-  /* background-color: #f1f1f1;
-  color: black; */
-  background-color: #f76a8f;
-
+ .prev:hover, .next:hover{
+  color: #f76a8f;
 }
 .next {
   right: 0;
@@ -108,7 +105,7 @@ body{
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 100px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   width: 30em;
