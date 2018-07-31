@@ -5,16 +5,16 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo|fontawesome|zocial);
 /* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
+[class*="Comfortaa-"]:before {
+  font-family: 'Comfortaa';
 }
 /* fontawesome */
-[class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif;
+[class*="Comfortaa-"]:before {
+  font-family: 'Comfortaa';
 }
 /* zocial */
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
+[class*="Comfortaa-"]:before {
+  font-family: 'Comfortaa';
 }
 /************************************* END FONTS *************************************/
 /** MAIN CONTAINER **/
@@ -34,14 +34,33 @@
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #000;
+  background-color:  #ffafaf;
+}
+.homepage {
+  background:  #ffafaf;
+}
+
+.calendar {
+  background:  #ffafaf;
+}
+
+.health {
+  background:  #ffafaf;
+}
+
+.nutrition {
+  background:  #ffafaf;
+}
+
+.plant {
+  background: #ffafaf;
 }
   .myModal {
       display: none; /* Hidden by default */
@@ -80,10 +99,6 @@
     cursor: pointer;
 }
 
-
-.homepage {
-  background: #f76a8f;
-}
   .main-container {
 	font-family: 'Ubuntu', sans-serif;
 	width: 1200px;
@@ -102,7 +117,7 @@
 
 		.block {
 			margin-bottom: 180px;
-			background: #EC89FC;
+			background: #ff7f7f;
 			border-radius: 100;
 		}
     .right-container {
@@ -112,17 +127,25 @@
 }
 
 body {
+<<<<<<< HEAD
 	background-color: pink;
   font-family: "Comfortaa"
+=======
+	background-color: #ffafaf;
+>>>>>>> fa0f9e20c6e58bc78e4cd23f14801facdb86a6e9
 
 }
 
 
 h1 {
 	font-size: 60px;
+<<<<<<< HEAD
   background-color: pink;
   color: white;
   font-family: "Comfortaa"
+=======
+  background-color: #ffafaf;
+>>>>>>> fa0f9e20c6e58bc78e4cd23f14801facdb86a6e9
 }
 
 h2 {
@@ -217,7 +240,7 @@ th, td{
 					background: black;
 				}
 					.calendar-day .arrow-btn:hover {
-						background-color: black;
+						background-color: white;
 					}
 				.calendar-day .the-day {
 					margin: 5;
@@ -229,7 +252,7 @@ th, td{
 					background-color: pink;
 				}
 					.add-event.button:hover {
-						background-color: black;
+						background-color: white;
 					}
 			.calendar-month {
 				height: 1300px;
@@ -239,7 +262,7 @@ th, td{
 					background-color: hotpink;
 				}
 					.calendar-month .arrow-btn:hover {
-						background-color: black;
+						background-color: white;
 					}
 				.calendar {
 					margin: 22px 15px;
@@ -254,12 +277,12 @@ th, td{
 						height: 80px;
 					}
 					.calendar .days-week {
-						color: #black;
+						color: white;
 					}
 					.calendar .today {
 						display: block;
 						width: 34px;
 						line-height: 50px;
-						background-color: black;
+						background-color: white;
 						border-radius: 100%;
 					}
