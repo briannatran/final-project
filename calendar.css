@@ -113,6 +113,7 @@
 
 body {
 	background-color: pink;
+  font-family: "Comfortaa"
 
 }
 
@@ -120,12 +121,16 @@ body {
 h1 {
 	font-size: 60px;
   background-color: pink;
+  color: white;
+  font-family: "Comfortaa"
 }
 
 h2 {
 	font-size: 70px;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+  font-family: "Comfortaa"
 }
 
 p {
@@ -162,6 +167,7 @@ th, td{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
   margin-left: auto;
+  background-color: hotpink
 }
 
 .arrow-btn-container {
@@ -217,6 +223,7 @@ th, td{
 					margin: 5;
 					text-align: center;
 					font-size: 500px;
+          font-family: "Comfortaa"
 				}
 				.add-event.button {
 					background-color: pink;
@@ -240,6 +247,7 @@ th, td{
 				}
 					.calendar a {
 						font-size: 30px;
+            font-family: "Comfortaa"
 					}
 					.calendar td, .calendar th {
 						width: 100px;
