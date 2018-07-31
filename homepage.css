@@ -289,21 +289,28 @@ audio {
 .citation {
     flex: 1 1 auto;
     display: block;
-    margin-top: 3%;
+    margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
     padding: 19px;
     text-align: center;
-    text-decoration: none;
     transition: 0.5s;
     background-size: 200% auto;
     font-family: 'Comfortaa';
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
     border-radius: 28px;
     border-color: transparent;
-    background-image: linear-gradient(to right, #ff6666 0%, #ff9999 51%, #ff6666 100%);
+    background-image: linear-gradient(to right, #ff9999 0%,  #ff6666 51%, #ff9999 100%);
+  }
+  .citation:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  .citation:focus{
+    outline:none;
+  }
   }
   .citation:hover {
     background-position: right center; /* change the direction of the change here */
