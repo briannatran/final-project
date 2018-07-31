@@ -50,20 +50,13 @@ body{
 
 h1{
   text-align:center;
-  position:relative;
+  /* position:relative; */
   position: absolute;
   left: 0;
   top: -5%;
   width: 100%;
   font-size: 120px;
   font-family:'Comfortaa';
-  color: white;
-}
-h6{
-  text-align: center;
-  font-family: 'Comfortaa';
-  font-size: 20px;
-  font-weight: bold;
   color: white;
 }
 h5{
@@ -98,6 +91,7 @@ audio {
   border-radius: 28px;
   border-color: transparent;
   background-image: linear-gradient(to right, #ff9999 0%,  #ff6666 51%, #ff9999 100%);
+  cursor: pointer;
 }
 .trigger:hover {
   background-position: right center; /* change the direction of the change here */
@@ -171,6 +165,7 @@ audio {
   border-radius: 28px;
   border-color: transparent;
   background-image: linear-gradient(to right, #ff6666 0%, #ff9999 51%, #ff6666 100%);
+  cursor: pointer;
 }
 .trigger2:hover {
   background-position: right center; /* change the direction of the change here */
@@ -303,19 +298,29 @@ audio {
     color: white;
     border-radius: 28px;
     border-color: transparent;
-    background-image: linear-gradient(to right, #ff6666 0%, #ff9999 51%, #ff6666 100%);
+    background-image: linear-gradient(to right, #ff9999 0%, #ff6666 51%, #ff9999 100%);
+    cursor: pointer;
   }
-  .citation:hover {
+.citation:hover {
     background-position: right center; /* change the direction of the change here */
   }
 
-  .citation:focus{
+.citation:focus {
     outline:none;
   }
-  a {
+.link {
     display: block;
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 20px;
     font-family:'Comfortaa';
-    text-decoration: none;
+    margin-top: 2%;
+}
+
+.links{
+    margin-top: 15%;
+}
+
+a:link {
+  text-decoration: none;
+}
