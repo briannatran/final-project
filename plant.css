@@ -104,7 +104,7 @@ font-weight: bold;
 /* #circle_img img:hover {
   background-color: #000;
 } */
-a {
+p {
   display: block;
   text-align: center;
   transition: all 0.3s ease;
