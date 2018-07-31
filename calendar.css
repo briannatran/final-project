@@ -72,8 +72,8 @@
       width: 100%; /* Full width */
       height: 100%; /* Full height */
       overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(0,0,0); /* Fallback color */
-      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      background-color: white; /* Fallback color */
+      background-color: white; /* Black w/ opacity */
   }
 
 .myModal-content {
@@ -86,7 +86,7 @@
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: #ffffff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -127,25 +127,21 @@
 }
 
 body {
-<<<<<<< HEAD
-	background-color: pink;
+
+	background-color: #ffafaf;;
   font-family: "Comfortaa"
 =======
-	background-color: #ffafaf;
->>>>>>> fa0f9e20c6e58bc78e4cd23f14801facdb86a6e9
+
 
 }
 
 
 h1 {
 	font-size: 60px;
-<<<<<<< HEAD
-  background-color: pink;
   color: white;
   font-family: "Comfortaa"
 =======
-  background-color: #ffafaf;
->>>>>>> fa0f9e20c6e58bc78e4cd23f14801facdb86a6e9
+
 }
 
 h2 {
@@ -190,7 +186,7 @@ th, td{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
   margin-left: auto;
-  background-color: hotpink
+  background-color:
 }
 
 .arrow-btn-container {
@@ -220,7 +216,7 @@ th, td{
 		.arrow-btn .icon {
 			display: block;
 			font-size: 18px;
-			border: 2px solid #fff;
+			border: 2px solid #ffafaf;
 			border-radius: 100%;
 			line-height: 17px;
 			width: 21px;
