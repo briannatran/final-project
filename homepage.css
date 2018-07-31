@@ -212,7 +212,7 @@ audio {
         transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-
+/* The profile cards inside the modal for Founders */
 /* Three columns side by side */
 .column {
     text-align: center;
@@ -273,6 +273,7 @@ audio {
     background-color: #ff9999;
 }
 
+/* Citation Button */
 .buttons {
     background-color: #ff9999; /* Green */
     border: none;
