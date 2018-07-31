@@ -34,14 +34,14 @@
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   font-family:'Comfortaa';
   text-decoration: none;
 }
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color:  #ffafaf;
+  background-color:  #f76a8f;
 }
 .homepage {
   background:  #ffafaf;
