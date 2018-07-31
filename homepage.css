@@ -297,11 +297,8 @@ audio {
     color: white;
     border-radius: 28px;
     border-color: transparent;
-<<<<<<< HEAD
     background-image: linear-gradient(to right, #ff9999 0%, #ff6666 51%, #ff9999 100%);
     cursor: pointer;
-=======
-    background-image: linear-gradient(to right, #ff9999 0%,  #ff6666 51%, #ff9999 100%);
   }
   .citation:hover {
     background-position: right center; /* change the direction of the change here */
@@ -310,8 +307,7 @@ audio {
   .citation:focus{
     outline:none;
   }
->>>>>>> f313909c8397e7a38a1d7c53920f4565ab9b5f79
-  }
+
 .citation:hover {
     background-position: right center; /* change the direction of the change here */
   }
