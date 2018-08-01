@@ -1,7 +1,7 @@
 h1 {
   text-align:center;
-  position:relative;
-  position: absolute;
+  /* position:relative; */
+  /* position: absolute; */
   left: 0;
   top: -5%;
   width: 100%;

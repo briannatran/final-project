@@ -51,11 +51,11 @@ body{
 h1{
   text-align:center;
   /* position:relative; */
-  position: absolute;
-  left: 0;
-  top: -5%;
-  width: 100%;
-  font-size: 100px;
+  /* position: absolute; */
+  /* left: 0; */
+  /* top: -5%; */
+  /* width: 100%; */
+  font-size: 60px;
   font-family:'Comfortaa';
   color: white;
 }
